@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey_form_styles.css" />
+</head>
+<body>
+    <h1 class="center_text" id="title">Fitness Survey Form</h1>
+    <p class="center_text" id="description"><span styles="font family: calibri">Fill in the form with your personal fitness information <br> as accurately as possible</span></p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Enter Your Name: <input placeholder="name" id="name" name="name" type="text" required /></label>
+            <label id="email-label" for="email">Enter Your Email: <input placeholder="email" id="email" name="email" type="email" required /></label>
+            <label id="number-label" for="number">How many days a <br> week do you exericse: <input placeholder="days" min="0" max="7" id="number" type="number"> </label>
+        </fieldset>
+        <fieldset >
+          <label for="dropdown"> How intensely do you exercise?  
+            <select id="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">Low Intensity</option>
+                <option value="2">High Intensity</option>
+                <option value="3">Very High Intensity</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+            <p>Sex:</p>
+            <label for="male"><input class="button" name="sex" type="radio" id="male" value="male"/>Male</label>
+            <label for="female"><input class="button" name="sex" type="radio" id="female" value="female"/>Female</label>
+            <label for="other"><input class="button" name="sex" type="radio" id="other" value="other"/>Other</label>
+        </fieldset>
+        <fieldset>
+            <label for="1-2"></label><input id="1-2" class="button" type="checkbox" name="frequency" value="1-2" />1-2 times a week</label>
+            <label for="3-4"></label><input id="3-4" class="button" type="checkbox" name="frequency" value="3-4" />3-4 times a week</label>
+            <label for="5+"></label><input id="5+" class="button" type="checkbox" name="frequency" value="5+" >5 or more times a week</label>
+        </fieldset>
+        <fieldset>
+            <p>Personal Information</p>
+            <textarea rows="3" cols="30" id="personal-information" placeholder="Personal Information"></textarea>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+        <fieldset></fieldset>
+    </form>
+</body>
+</html>

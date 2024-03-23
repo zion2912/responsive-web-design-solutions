@@ -1,0 +1,43 @@
+#navbar{
+  position: fixed;
+  left: 0px;
+  padding: 5px 20px ;
+  border: solid;
+  background-color:#D1DEE3;
+  height:100%;
+}
+
+#navbar header{
+  font-size:20
+}
+
+#navbar a{
+  display: block;
+  margin:50 0 50 0;
+  border:solid;
+  width:100%
+}
+
+#main-doc {
+  margin-left: 200px;
+}
+
+body{
+  margin:0;
+}
+
+section{
+  padding:20px;
+  border-bottom:solid;
+}
+
+header{
+  font-size:20;
+  
+}
+
+@media(max-height:550px){
+  .main-section{
+    font-size: 7em;
+  }
+}

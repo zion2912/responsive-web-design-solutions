@@ -1,0 +1,46 @@
+body {
+    background-color: #E9FFF8;
+    color: #2DC8D5 ;
+    font-family: monospace;
+    font-size: 16px; 
+}
+
+.heading{  background-color:#4590A9;
+border:solid; 
+margin-bottom:20;
+}
+
+h1 {
+    text-align:center;
+}
+
+#img-div {
+    padding: 10px;
+    margin: 0;
+}
+
+#image{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+figcaption{
+    text-align:center;
+    border:solid;
+    margin-bottom: 20;
+    margin-top: 10;
+}
+
+#tribute-info{
+    text-align:center;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
